@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="__html__/loanstyle.css">
+        <title>{0}</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="pagetitle">{0}</h1>
+            <div class="panel">
+                <table class="name-val-table">
+                    <colgroup>
+                        <col class="col-name">
+                        <col class="col-val">
+                    </colgroup>
+                    {1}
+                </table>
+            </div>
+            <div class="panel">
+                <h2>Amount Due</h2>
+                <hr class="amt-due-header">
+                <table class="name-val-table">
+                    <colgroup>
+                        <col class="col-name">
+                        <col class="col-val">
+                    </colgroup>
+                    {2}
+                </table>
+            </div>
+            <div class="panel">
+                {3}
+            </div>
+            <div class="non_panel">
+                <table class="payment-history-table">
+                    <thead>
+                        <tr>
+                            <th>Payment Date</th>
+                            <th>Total Payment</th>
+                            <th>Principal Payment</th>
+                            <th>Interest Payment</th>
+                            <th>Total Interest Paid</th>
+                            <th>Remaining Balance</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {4}
+                    </tbody>
+                </table>
+                <div class="panel">
+                    <table class="name-val-table">
+                        <colgroup>
+                            <col class="col-name">
+                            <col class="col-val">
+                        </colgroup>
+                        {5}
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

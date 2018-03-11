@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgba(255, 255, 255, 1);
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0px;
+    overflow-y: scroll;
+    padding-bottom: 70px;
+}
+.pagetitle {
+    color: rgba(42, 98, 147, 1);
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 6%;
+    padding-right: 6%;
+    width: 1170px;
+}
+.panel {
+    background-color: rgba(240, 240, 240, 1);
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.name-val-table {
+    display: table;
+    max-width: 100%;
+    width: 100%;
+}
+.name-val-table tr>td:first-child {
+    color: rgba(42, 98, 147, 1);
+    font-weight: bold;
+}
+.name-val-table tr>td:first-child::after {
+    content: ":";
+}
+.name-val-table tr>td:not(:first-child) {
+    font-weight: bold;
+}
+.col-name, .col-val {
+    width: 50%;
+}
+h2 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+hr {
+    border: 0;
+    border-top: 1px solid rgba(240, 240, 240, 1);
+    border-width: 1px;
+}
+.amt-due-header {
+    border-color: rgba(204, 204, 204, 1);
+    margin: 0px;
+    padding: 10px;
+}
+.non_panel {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.payment-history-table {
+    border-collapse: collapse;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+}
+.payment-history-table thead {
+    background-color: rgba(118, 118, 118, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.payment-history-table th, .payment-history-table td {
+    border: 1px solid rgba(255, 255, 255, 1);
+}
+.payment-history-table tbody>tr:nth-child(odd) {
+    background-color: rgba(240, 240, 240, 1);
+}

@@ -1,0 +1,4 @@
+new loan: /loan?loan_name={name}&amt={amt}&rate={rate}&pymnts={pymnts}&mon={mon}&yr={yr}
+show loan: /loan{loan_name}
+new payment: /loan/{loan_name}?pymnt={pymnt}
+new schedule: /loan/{loan_name}/schedule?sched_name={name}&pymnt={pymnt}

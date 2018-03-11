@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<Loans>
+    <Loan><name>Eames Way Home Loan</name><amt>238832.0</amt><rate>4.25</rate><pymnts>360</pymnts><mnthly_pymnt>1174.91</mnthly_pymnt><date>Aug-2017</date></Loan>
+    <Loan>
+        <name>Eames Way Loan</name>
+        <amt>238832.0</amt>
+        <rate>4.25</rate>
+        <pymnts>360</pymnts>
+        <mnthly_pymnt>1174.91</mnthly_pymnt>
+        <date>Aug-2017</date>
+        <xtra_pymnts>
+            <xtra_amt>0.00</xtra_amt>
+            <xtra_amt>845.00</xtra_amt>
+            <xtra_amt>841.00</xtra_amt>
+            <xtra_amt>1174.91</xtra_amt>
+            <xtra_amt>832.00</xtra_amt>
+            <xtra_amt>1174.91</xtra_amt>
+            <xtra_amt>1586.60</xtra_amt>
+            <xtra_amt>1174.91</xtra_amt>
+        </xtra_pymnts></Loan>
+        <Loan>
+            <name>Eames Way Test</name>
+            <amt>238832.0</amt>
+            <rate>4.25</rate>
+            <pymnts>360</pymnts>
+            <mnthly_pymnt>1174.91</mnthly_pymnt>
+            <date>Aug-2017</date>
+            <xtra_pymnts>
+                <xtra_amt>0.00</xtra_amt>
+                <xtra_amt>845.00</xtra_amt>
+                <xtra_amt>841.00</xtra_amt>
+                <xtra_amt>1174.91</xtra_amt>
+                <xtra_amt>832.00</xtra_amt>
+                <xtra_amt>1174.91</xtra_amt>
+                <xtra_amt>1586.60</xtra_amt>
+                <xtra_amt>1174.91</xtra_amt>
+                <xtra_amt>1174.91</xtra_amt>
+                <xtra_amt>1552.86</xtra_amt>
+                <xtra_amt>1621.97</xtra_amt>
+                <xtra_amt>1614.88</xtra_amt>
+                <xtra_amt>1607.80</xtra_amt>
+            </xtra_pymnts></Loan>
+</Loans>
